@@ -19,7 +19,10 @@ go build
 ```
 > 截图
 
-![转码](/path/to/img.jpg)
+![image](https://github.com/shuyabin/caidao/blob/master/images/shouye.png)
+![image](https://github.com/shuyabin/caidao/blob/master/images/add.png)
+![image](https://github.com/shuyabin/caidao/blob/master/images/zhongduan.png)
+![image](https://github.com/shuyabin/caidao/blob/master/images/zhongduan1.png)
 
 > 或者直接使用?
 
@@ -38,10 +41,6 @@ go build
 如果不改文件的话。。添加url的时候 密码 Cknife
 ```
 
-![image](https://github.com/shuyabin/caidao/blob/master/images/shouye.png)
-![image](https://github.com/shuyabin/caidao/blob/master/images/add.png)
-![image](https://github.com/shuyabin/caidao/blob/master/images/zhongduan.png)
-![image](https://github.com/shuyabin/caidao/blob/master/images/zhongduan1.png)
 
 
 > 后面需要做的
