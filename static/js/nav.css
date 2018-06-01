@@ -1,0 +1,88 @@
+.navbar{
+	background: #f2efea;
+  -moz-user-select:text;
+  -webkit-user-select:text;
+}
+.navbar .text{
+	padding:14px 10px;
+}
+.navbar .text span{
+	color: #666; font-size: 15px;
+	font-family: Helvetica, Tahoma;
+}
+.navbar .next, .navbar .prev{
+	display: block;
+	width:32px; height:32px; overflow: hidden;
+	background: url(./controls.png);
+	background-repeat: no-repeat;
+	background-position: -90px -71px;
+	margin:1px 0px 0px 20px;
+	float:right;
+	cursor:pointer;
+}
+.navbar .prev{
+	float:left;
+	background-position: -26px -71px;
+	margin:1px 20px 20px 0px;
+}
+.navbar .next:hover{
+	background-position: -90px -21px;
+}
+.navbar .prev:hover{
+	background-position: -26px -21px;
+}
+.navbar .webix_template{
+	padding:10px;
+}
+
+.webix-btn {
+  float:right;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  line-height: 24px;
+  padding: 4px 20px;
+  height: 25px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+.webix-btn:hover,
+.webix-btn:focus {
+  text-decoration: none;
+  outline: none;
+}
+.webix-btn:active {
+  text-decoration: none;
+  outline: none;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.btn-green {
+  border: 1px solid #2b8948;
+  background: #309850;
+}
+.btn-green:hover,
+.btn-green:focus {
+  background: #178a3a !important;
+}
+.btn-green:active {
+  background: #178a3a !important;
+}
+.btn-wide {
+  width: 160px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media (max-width: 500px) {
+  .webix-btn {
+    position: static;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    box-sizing: border-box;
+    height: 36px;
+  }
+}

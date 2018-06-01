@@ -1,0 +1,45 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "name": "admin",
+            "email": "admin@some.com",
+            "description": "Be sure to change default password"
+        },
+        {
+            "id": "2",
+            "name": "test",
+            "email": "test@some.com",
+            "description": "Test user"
+        }
+    ],
+    "roles": [
+        {
+            "id": "1",
+            "name": "ReadyUser Admin",
+            "description": "Do not delete this rule"
+        },
+        {
+            "id": "34",
+            "name": "Guest",
+            "description": ""
+        }
+    ],
+    "links": [
+        {
+            "id": "21",
+            "role_id": "34",
+            "user_id": "2"
+        },
+        {
+            "id": "23",
+            "role_id": "1",
+            "user_id": "1"
+        },
+        {
+            "id": "24",
+            "role_id": "34",
+            "user_id": "1"
+        }
+    ]
+}
